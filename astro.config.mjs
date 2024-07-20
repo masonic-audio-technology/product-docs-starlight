@@ -5,9 +5,13 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Products Documentation',
+			logo: {
+				light: './src/assets/logo/logo.png',
+				dark: './src/assets/logo/logodark.png',
+			  },
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/masonic-audio-technology/product-docs-starlight',
 			},
 			sidebar: [
 				{
